@@ -6,7 +6,7 @@ from streamlit_lottie import st_lottie
 
 # Load the model from the file
 loaded_model = joblib.load('model.joblib')
-st.set_page_config(layout='wide')
+st.set_page_config(page_title="CropHarbor", page_icon="🌱",layout='wide')
 
 # Animation files load function
 def load_lottiefile(filepath: str):
