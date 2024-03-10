@@ -1,5 +1,5 @@
-!pip install joblib
-!pip install streamlit_lottie
+pip install joblib
+pip install streamlit_lottie
 
 import joblib
 import pandas as pd
