@@ -131,7 +131,6 @@ with description1:
                 <P>{text}</P>
                 <p> - {days_to_harvest}</p>
                 <p> - {diseases}</p>
-                <h3>{"-Team Divas"}</h3>
                 </div>
             """
             st.markdown(html_code, unsafe_allow_html=True)
